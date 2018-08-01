@@ -1,0 +1,14 @@
+- name: "Koolicar"
+  logo: "koolicar_logo.png"
+  link: "https://www.koolicar.com/"
+  descriptions:
+    - <strong>Koolicar</strong> is a P2P car-sharing service that allows individual car owners to rent out their cars for precise slots of time.
+    - At Koolicar, I'm part of the "supply team" which is responsible for the development of the owner side of the platform (the ones who rent their car). From the maintenance of the API to its evolution, the team is data and user centric.
+    - We use scrum and most of the things that come with it in order to build a robust product.
+- name: "Tilkee"
+  logo: "tilkee_logo.png"
+  link: "https://www.tilkee.com/"
+  descriptions:
+    - <strong>Tilkee</strong> is an innovative Saas solution for proposals follow-up & sales process tracking. It allows you to know how, when and where your commercial bid is read.
+    - I have found my place in this startup as a Ruby on Rails developer (sometimes front-end JS/AngularJS). By beeing Agiles, we use the tools that are suitable for our environment like Slack, Asana, Git, etc.
+    - By growing as an apprentice, I learn a lot about working in a team and by my own too. I can see the result of my tasks everyday as soon as I have done them thanks to frequent deployments into production. Moreover, I am improving as much in development than in RESTful API and global practices.

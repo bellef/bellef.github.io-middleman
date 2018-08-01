@@ -3,8 +3,8 @@ title: François Belle
 ---
 
 <!-- PROFILE -->
-<div class="card mx-auto col-lg-6 my-md-3 py-3">
-  <div class="row">
+<div class="card mx-auto col-lg-6 my-md-3">
+  <div class="card-body row">
     <div class="col-12 col-md-4 text-center">
       <%= image_tag "bellef_profile.jpg", alt: "François Belle", class: "rounded-circle", style: "width: 80%;" %>
       <div class="mt-3">
@@ -18,7 +18,8 @@ title: François Belle
         <strong class="color-ruby">Ruby on Rails</strong> backend developer, I have experience with RESTful JSON APIs in various companies in France and Canada. I'm also a teacher at Le Wagon coding bootcamp.
       </p>
       <p>
-        I like learning new things, handcrafts, climbing/bouldering and discovering the world!
+        I like building things, learning from people better than me and sharing my experiences with others.
+        By building things I obviously mean "virtual" with programming tools like Ruby, Rails, Javascript etc. but also "IRL" things with wood, nails, glue, whatever!
       </p>
       <p>
         My philosophy of coding is to <mark>build robust things with the team</mark>, <mark>learn from each others</mark> and <mark>move forward together</mark>.
@@ -27,6 +28,7 @@ title: François Belle
   </div>
 </div>
 
+<!-- SIMPLICITY -->
 <div class="row mx-auto col-lg-6 py-3">
   <div class="col-12 col-md-8 text-right border-right border-secondary">
     <blockquote class="blockquote mb-0">
@@ -40,6 +42,27 @@ title: François Belle
   </div>
 
   <div class="col-12 col-md-4 my-auto">
-    <span class="display-4">Simplicité</span>
+    <span class="display-4">Simplicity</span>
+  </div>
+</div>
+
+<!-- COMPANIES -->
+<div class="card mx-auto col-lg-6 my-md-3">
+  <div class="card-body">
+    <h4 class="card-title mb-0">They trust me</h4>
+
+    <% data.companies.each do |company| %>
+    <hr>
+    <div class="row my-3">
+      <div class="col-md-2">
+        <%= link_to(image_tag(company["logo"], alt: company["name"], class: "rounded", style: "width: 100%;"), company["link"]) %>
+      </div>
+      <div class="col-md-10">
+        <% company["descriptions"].each do |description| %>
+        <p><%= description %></p>
+        <% end %>
+      </div>
+    </div>
+    <% end %>
   </div>
 </div>
