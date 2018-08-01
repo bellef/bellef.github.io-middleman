@@ -54,8 +54,8 @@ title: François Belle
     <% data.companies.each do |company| %>
     <hr>
     <div class="row my-3">
-      <div class="col-md-2">
-        <%= link_to(image_tag(company["logo"], alt: company["name"], class: "rounded", style: "width: 100%;"), company["link"]) %>
+      <div class="col-md-2 text-center">
+        <%= link_to(image_tag(company["logo"], alt: company["name"], class: "rounded mb-3 my-md-3", style: "width: 6em;"), company["link"]) %>
       </div>
       <div class="col-md-10">
         <% company["descriptions"].each do |description| %>
