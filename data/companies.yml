@@ -1,3 +1,9 @@
+- name: "Le Wagon"
+  logo: "le_wagon_logo.png"
+  link: "https://www.lewagon.com/"
+  descriptions:
+    - At <strong>Le Wagon</strong> coding bootcamp, I can help people who want to make a big change in their lives.
+      Teaching is a good way for me to question what I've learned, become better and learn from people of different backgrounds.
 - name: "Koolicar"
   logo: "koolicar_logo.png"
   link: "https://www.koolicar.com/"
