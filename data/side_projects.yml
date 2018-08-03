@@ -1,0 +1,9 @@
+- title: "Bookmarks Finder"
+  link: "https://chrome.google.com/webstore/detail/bookmarks-in-google-resul/oamlmgmgmdajeceifmmhhlkkhpgbeipb"
+  descriptions:
+    - "I've always been struggling with all my Chrome bookmarks: hundreds of them but no time to sort them so they all finish in the same \"Devtools\" or \"Watch later\" folder. I had to find an efficient way to search through my bookmarks smoothly and at the right time."
+    - "This extension shows the bookmarks that match your search keywords at the top of the Google results"
+    - "Type your keywords in Google search bar and the matching bookmarks will be displayed at the top of the results."
+  pictures:
+    - path: "projects/bm_finder_1.png"
+      alt: "Bookmarks finder"

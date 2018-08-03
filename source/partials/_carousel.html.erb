@@ -1,0 +1,11 @@
+<div class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <% pictures.each_with_index do |picture, index| %>
+    <div class="carousel-item <%= index == 0 ? "active" : "" %>">
+      <a href="<%= project_link %>">
+        <%= image_tag(picture[:path], alt: picture[:alt], class: "rounded d-block w-100") %>
+      </a>
+    </div>
+    <% end %>
+  </div>
+</div>

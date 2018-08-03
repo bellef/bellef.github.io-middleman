@@ -3,7 +3,7 @@ title: François Belle
 ---
 
 <!-- PROFILE -->
-<div class="card mx-auto col-lg-6 my-md-3">
+<div class="card shadow mx-auto col-lg-6 my-md-3">
   <div class="card-body row">
     <div class="col-12 col-md-4 text-center">
       <%= image_tag "bellef_profile.jpg", alt: "François Belle", class: "rounded-circle", style: "width: 80%;" %>
@@ -18,7 +18,7 @@ title: François Belle
         <strong class="color-ruby">Ruby on Rails</strong> backend developer, I have experience with RESTful JSON APIs in various companies in France and Canada. I'm also a teacher at Le Wagon coding bootcamp.
       </p>
       <p>
-        I like building things, learning from people better than me and sharing my experiences with others.
+        I like building things, learning from people and sharing my experiences with others.
         By building things I obviously mean "virtual" with programming tools like Ruby, Rails, Javascript etc. but also "IRL" things with wood, nails, glue, whatever!
       </p>
       <p>
@@ -28,10 +28,12 @@ title: François Belle
   </div>
 </div>
 
+<!-- TODO: Add my skills at the bottom of my profile -->
+
 <%= partial("partials/quotation_right", locals: { quotation: data.quotations[:simplicity] }) %>
 
 <!-- COMPANIES -->
-<div class="card mx-auto col-lg-6 my-md-3">
+<div class="card shadow mx-auto col-lg-6 my-md-3">
   <div class="card-body">
     <h4 class="card-title mb-0">They trust me</h4>
 
@@ -53,6 +55,30 @@ title: François Belle
 
 <%= partial("partials/quotation_left", locals: { quotation: data.quotations[:authenticity] }) %>
 
-<!-- Side Projects -->
+<!-- SIDE PROJECTS -->
+<div class="card shadow mx-auto col-lg-6 my-md-3">
+  <div class="card-body">
+    <h4 class="card-title mb-0">Side projects</h4>
+    <% data.side_projects.each do |side_project| %>
+    <hr>
+    <div class="row my-3">
+      <div class="col-md-6 text-center">
+        <%= partial("partials/carousel", locals: { pictures: side_project[:pictures], project_link: side_project[:link] }) %>
+      </div>
+      <div class="col-md-6">
+        <h4>
+          <%= link_to(side_project["title"], side_project[:link]) %>
+        </h4>
+
+        <% side_project["descriptions"].each do |description| %>
+        <p><%= description %></p>
+        <% end %>
+      </div>
+    </div>
+    <% end %>
+  </div>
+</div>
+
+
 <!-- Books / Movies -->
 <!-- Hobbies -->
