@@ -7,3 +7,15 @@
   pictures:
     - path: "projects/bm_finder_1.png"
       alt: "Bookmarks finder"
+- title: "Visa overview for Canada"
+  link: "http://gotocanada.herokuapp.com/stats?location=France"
+  descriptions:
+    - "When I wanted to immigrate to Canada, I had to check immigration quotas several times a day on <a href=\"http://www.cic.gc.ca/francais/travailler/eic/selection.asp\">this site</a>. At least 5 clicks are needed to see the information that interests me."
+    - "Then I coded a scraper that displays the information on the different visas in clear and simple graphics."
+  pictures:
+    - path: "projects/gotocanada_1.png"
+      alt: "Canada visa overview"
+    - path: "projects/gotocanada_2.png"
+      alt: "Canada visa overview"
+    - path: "projects/gotocanada_3.png"
+      alt: "Canada visa overview"
