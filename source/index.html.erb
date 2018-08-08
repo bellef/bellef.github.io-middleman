@@ -46,11 +46,17 @@ title: François Belle
     <hr>
     <div class="row my-3">
       <div class="col-md-2 text-center">
-        <%= link_to(image_tag(company["logo"], alt: company["name"], class: "rounded mb-3 my-md-3", style: "width: 6em;"), company["link"]) %>
+        <%= link_to(image_tag(company[:logo], alt: company[:name], class: "rounded mb-3 my-md-3", style: "width: 6em;"), company[:link]) %>
       </div>
       <div class="col-md-10">
-        <% company["descriptions"].each do |description| %>
+        <% company[:descriptions].each do |description| %>
         <p><%= description %></p>
+        <% end %>
+        <% if company[:recommendation] %>
+          <p class="text-secondary">
+            <%= company[:recommendation][:content] %> &#8212; <span class="font-italic"><%= company[:recommendation][:author] %> @<%= company[:name] %></span>
+          </p>
+        </blockquote>
         <% end %>
       </div>
     </div>
@@ -72,10 +78,10 @@ title: François Belle
       </div>
       <div class="col-md-6">
         <h4 class="mt-3">
-          <%= link_to(side_project["title"], side_project[:link]) %>
+          <%= link_to(side_project[:title], side_project[:link]) %>
         </h4>
 
-        <% side_project["descriptions"].each do |description| %>
+        <% side_project[:descriptions].each do |description| %>
         <p><%= description %></p>
         <% end %>
       </div>
