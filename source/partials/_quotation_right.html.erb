@@ -4,9 +4,11 @@
       <p class="mb-0">
         <%= quotation[:content] %>
       </p>
-      <footer class="blockquote-footer">
-        <%= quotation[:author] %>
-      </footer>
+      <% if quotation[:author] %>
+        <footer class="blockquote-footer">
+          <%= quotation[:author] %>
+        </footer>
+      <% end %>
     </blockquote>
   </div>
 

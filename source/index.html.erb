@@ -28,6 +28,8 @@ title: François Belle
         <ul class="fa-ul">
           <li><i class="fa-li fa fa-check"></i><strong>3 years experience</strong> with <span class="color-ruby">Ruby</span>, <span class="color-ruby">Ruby on Rails</span>, and RESTful APIs</li>
           <li><i class="fa-li fa fa-check"></i><strong>2 years experience</strong> with agile methods</li>
+          <li><i class="fa-li fa fa-check"></i>CLI, Git, Rspec, CI</li>
+          <li><i class="fa-li fa fa-check"></i>Technical reviews, pair programming</li>
           <li><i class="fa-li fa fa-check"></i>Strong team spirit</li>
         </ul>
       </p>
@@ -47,15 +49,20 @@ title: François Belle
     <div class="row my-3">
       <div class="col-md-2 text-center">
         <%= link_to(image_tag(company[:logo], alt: company[:name], class: "rounded mb-3 my-md-3", style: "width: 6em;"), company[:link]) %>
+        <h4><%= link_to(company[:name], company[:link], class:"badge badge-light") %></h4>
       </div>
       <div class="col-md-10">
         <% company[:descriptions].each do |description| %>
         <p><%= description %></p>
         <% end %>
         <% if company[:recommendation] %>
-          <p class="text-secondary">
-            <%= company[:recommendation][:content] %> &#8212; <span class="font-italic"><%= company[:recommendation][:author] %> @<%= company[:name] %></span>
-          </p>
+          <a class="text-dark" data-toggle="collapse" href="#collapseReco" aria-expanded="false" aria-controls="collapseReco">
+            <u><span class="font-italic"><%= company[:recommendation][:author] %> @<%= company[:name] %></span> recommended me</u>
+          </a>
+
+          <div class="collapse text-secondary" id="collapseReco">
+            <%= company[:recommendation][:content] %>
+          </div>
         </blockquote>
         <% end %>
       </div>
@@ -64,7 +71,7 @@ title: François Belle
   </div>
 </div>
 
-<%= partial("partials/quotation_left", locals: { quotation: data.quotations[:passion] }) %>
+<%= partial("partials/quotation_left", locals: { quotation: data.quotations[:humility] }) %>
 
 <!-- SIDE PROJECTS -->
 <div class="card shadow mx-auto col-lg-6 my-md-3">
@@ -89,6 +96,8 @@ title: François Belle
     <% end %>
   </div>
 </div>
+
+<%= partial("partials/quotation_right", locals: { quotation: data.quotations[:passion] }) %>
 
 <!-- SIDE PROJECTS -->
 <div class="card shadow mx-auto col-lg-6 my-md-3">
