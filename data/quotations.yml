@@ -1,11 +1,11 @@
 simplicity:
   theme: Simplicity
   content: Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
-  author: Antoine de Saint-Exupery
+  author: Antoine de Saint-Exupéry
 passion:
   theme: Passion
   content: Creating a life that reflects your values and satisfies your soul is a rare achievement. <small><a href="https://www.goodreads.com/quotes/808267-creating-a-life-that-reflects-your-values-and-satisfies-your" target="blank">Read more</a></small>
   author: Bill Watterson
 humility:
   theme: Humility
-  content: Strong adherent and advocate of <i>Jerry Weinberg</i>'s <a href="https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/" target="blank">egoless programming concepts</a>
+  content: Adherent and advocate of <i>Jerry Weinberg</i>'s <a href="https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/" target="blank">egoless programming concepts</a>

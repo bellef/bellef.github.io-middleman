@@ -9,42 +9,42 @@ title: François Belle
       <%= image_tag "bellef_profile.jpg", alt: "François Belle", class: "rounded-circle", style: "width: 80%;" %>
       <div class="mt-3">
         <h2>François <span class="color-ruby">Belle</span></h2>
-        <h3 class="text-secondary">RoR Developer</h3>
+        <h3 class="text-secondary">Developpeur RoR</h3>
       </div>
     </div>
 
     <div class="col-12 col-md-8 m-auto py-3">
       <p>
-        <strong class="color-ruby">Ruby on Rails</strong> backend developer, I have experience with RESTful JSON APIs in various companies in France and Canada. I'm also a teacher at Le Wagon coding bootcamp.
+        Développeur backend sur <strong class="color-ruby">Ruby on Rails</strong>, j'ai de l'expérience avec des APIs RESTful en JSON dans diverses entreprises en France et au Canada. Je suis aussi enseignant au Wagon coding bootcamp.
       </p>
       <p>
-        I like building things, learning from people and sharing my experiences with others.
-        By building things I obviously mean "virtual" with programming tools like Ruby, Rails, Javascript etc. but also "IRL" things with wood, nails, glue, whatever!
+        J'aime créer des choses, apprendre des autres et partager mes expériences.
+        Par créer j'entends bien sûr "virtuellement" avec des langages de programmation comme Ruby, Rails, React, etc. mais également "dans la vraie vie" avec du bois, des clous, des vis, de la colle, peu importe !
       </p>
       <p>
-        My philosophy of coding is to <mark>build robust things with the team</mark>, <mark>learn from each others</mark> and <mark>move forward together</mark>.
+        Ma philosophie du code est de <mark>construire des choses robustes avec l'équipe</mark>, <mark>apprendre des autres</mark> et <mark>avancer ensemble</mark>.
       </p>
       <p>
         <ul class="fa-ul">
-          <li><i class="fa-li fa fa-check"></i><strong>3 years experience</strong> with <span class="color-ruby">Ruby</span>, <span class="color-ruby">Ruby on Rails</span>, and RESTful APIs</li>
-          <li><i class="fa-li fa fa-check"></i><strong>2 years experience</strong> with agile methods</li>
+          <li><i class="fa-li fa fa-check"></i><strong>3 ans d'expérience</strong> avec <span class="color-ruby">Ruby</span>, <span class="color-ruby">Ruby on Rails</span>, et des APIs RESTful</li>
+          <li><i class="fa-li fa fa-check"></i><strong>2 ans d'expérience</strong> avec les méthodes agiles (SCRUM)</li>
           <li><i class="fa-li fa fa-check"></i>CLI, Git, Rspec, CI</li>
-          <li><i class="fa-li fa fa-check"></i>Technical reviews, pair programming</li>
-          <li><i class="fa-li fa fa-check"></i>Strong team spirit</li>
+          <li><i class="fa-li fa fa-check"></i>Revues techniques, pair programming</li>
+          <li><i class="fa-li fa fa-check"></i>Fort esprit d'équipe</li>
         </ul>
       </p>
     </div>
   </div>
 </div>
 
-<%= partial("partials/quotation_right", locals: { quotation: data.quotations[:simplicity] }) %>
+<%= partial("partials/quotation_right", locals: { quotation: data.fr.quotations[:simplicity] }) %>
 
 <!-- COMPANIES -->
 <div class="card shadow mx-auto col-lg-6 my-md-3">
   <div class="card-body">
-    <h4 class="card-title mb-0">They trust me</h4>
+    <h4 class="card-title mb-0">Ils me font confiance</h4>
 
-    <% data.companies.each do |company| %>
+    <% data.fr.companies.each do |company| %>
     <hr>
     <div class="row my-3">
       <div class="col-md-2 text-center">
@@ -57,7 +57,7 @@ title: François Belle
         <% end %>
         <% if company[:recommendation] %>
           <a class="text-dark" data-toggle="collapse" href="#collapseReco" aria-expanded="false" aria-controls="collapseReco">
-            <u><span class="font-italic"><%= company[:recommendation][:author] %> @<%= company[:name] %></span> recommends me</u>
+            <u><span class="font-italic"><%= company[:recommendation][:author] %> @<%= company[:name] %></span> me recommande</u>
           </a>
 
           <div class="collapse text-secondary" id="collapseReco">
@@ -71,13 +71,13 @@ title: François Belle
   </div>
 </div>
 
-<%= partial("partials/quotation_left", locals: { quotation: data.quotations[:humility] }) %>
+<%= partial("partials/quotation_left", locals: { quotation: data.fr.quotations[:humility] }) %>
 
 <!-- SIDE PROJECTS -->
 <div class="card shadow mx-auto col-lg-6 my-md-3">
   <div class="card-body">
     <h4 class="card-title mb-0">Side projects</h4>
-    <% data.side_projects.each do |side_project| %>
+    <% data.fr.side_projects.each do |side_project| %>
     <hr>
     <div class="row my-3">
       <div class="col-md-6 text-center">
@@ -97,14 +97,14 @@ title: François Belle
   </div>
 </div>
 
-<%= partial("partials/quotation_right", locals: { quotation: data.quotations[:passion] }) %>
+<%= partial("partials/quotation_right", locals: { quotation: data.fr.quotations[:passion] }) %>
 
 <!-- SIDE PROJECTS -->
 <div class="card shadow mx-auto col-lg-6 my-md-3">
   <div class="card-body">
-    <h4 class="card-title mb-0">Personal projects</h4>
+    <h4 class="card-title mb-0">Projets personnels</h4>
     <hr>
-    <% data.imgur_galeries.each do |galery| %>
+    <% data.fr.imgur_galeries.each do |galery| %>
     <div class="row my-3">
       <div class="col-12 text-center">
         <blockquote class="imgur-embed-pub" lang="en" data-id="a/<%= galery[:id] %>"><a href="//imgur.com/<%= galery[:id] %>"><%= galery[:title] %></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>

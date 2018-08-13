@@ -1,0 +1,11 @@
+simplicity:
+  theme: Simplicité
+  content: La perfection est atteinte, non pas lorsqu'il n'y a plus rien à ajouter, mais lorsqu'il n'y a plus rien à retirer.
+  author: Antoine de Saint-Exupéry
+passion:
+  theme: Passion
+  content: Créer une vie qui reflète vos valeurs et satisfait votre âme est une réalisation rare. <small><a href="https://www.goodreads.com/quotes/808267-creating-a-life-that-reflects-your-values-and-satisfies-your" target="blank">Lire plus</a></small>
+  author: Bill Watterson
+humility:
+  theme: Humilité
+  content: Adhérent et défenseur des <a href="https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/" target="blank">concepts de l'egoless programming</a> de <i>Jerry Weinberg</i>

@@ -1,0 +1,23 @@
+- name: "Le Wagon"
+  logo: "logos/le_wagon.png"
+  link: "https://www.lewagon.com/"
+  descriptions:
+    - Au <strong>Wagon</strong>, j'aide des personnes à apporter un grand changement dans leur vie.
+    - Le Wagon est un bootcamp de 9 semaines où les étudiants apprennent à passer d'une idée à un produit concret en utilisant des outils modernes dont HTML/CSS/JS, Ruby/Rails, Git, Heroku, etc.
+      Enseigner est un bon moyen de remettre mes acquis en question, devenir meilleur et apprendre de personnes de différents horizons.
+- name: "Koolicar"
+  logo: "logos/koolicar.png"
+  link: "https://www.koolicar.com/"
+  descriptions:
+    - <strong>Koolicar</strong> est un service de partage de véhicule qui permet aux propriétaires de louer leurs véhicules pour des périodes précises.
+    - Chez Koolicar, je fais partie de la "supply team" qui est responsable du développement du côté propriétaire de la plateforme (les personnes qui louent leur voiture). De la maintenance de l'API à son amélioration, la team est centrée sur la donnée et l'utilisateur.
+    - Nous utilisons scrum et la plupart des outils qui viennent avec pour construire un produit robuste.
+- name: "Tilkee"
+  logo: "logos/tilkee.png"
+  link: "https://www.tilkee.com/"
+  descriptions:
+    - <strong>Tilkee</strong> est un SaaS permettant à quiconque d'obtenir des statistiques détaillées sur les propositions commerciales qu'il envoie à ses prospects.
+    - En tant que développeur backend, j'ai beaucoup appris sur le travail en équipe et en autonomie grâce à des Pull Requests régulières. J'ai pu voir le résultat de mon travail au quotidien grâce à l'intégration continue.
+  recommendation:
+    content: "François a parfaitement rempli les différentes missions qui lui ont été confiées : rigoureux, efficace, motivé, parfaitement intégré dans l’équipe, il a su apporter ses compétences et évoluer techniquement afin d’augmenter la valeur ajoutée de notre produit.<br> Toutes ces raisons me font croire que François Belle sera un élément moteur de votre société dans laquelle il s’intégrera au sein d’équipes de travail mais aussi au sein de la vie de l'entreprise."
+    author: Christophe Brun - Lead Developer

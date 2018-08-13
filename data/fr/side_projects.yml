@@ -1,0 +1,34 @@
+- title: "Ce site personnel"
+  link: "https://bellef.github.io"
+  descriptions:
+    - "Quand j'ai voulu créer un site portfolio, j'ai dû choisir un moyen de gérer facilement un site statique. C'est pourquoi j'ai choisi de le construire avec Middleman"
+    - "Middleman est un générateur de sites statiques qui utilise tous les outils modernes dont j'ai besoin: ERB, Saas, CoffeeScript. etc. Read more about Middleman <a href=\"https://github.com/middleman/middleman#why-middleman\">here</a>"
+    - "Construit avec <strong>Middleman</strong>: <a href=\"https://github.com/bellef/bellef.github.io-middleman\" class=\"badge badge-dark\"><i class=\"fab fa-github\"></i> sources</a>."
+  pictures:
+    - path: "projects/bellef_middleman_1.png"
+      alt: "Personal website slide 1"
+    - path: "projects/bellef_middleman_2.png"
+      alt: "Personal website slide 2"
+- title: "Bookmarks Finder"
+  link: "https://chrome.google.com/webstore/detail/bookmarks-in-google-resul/oamlmgmgmdajeceifmmhhlkkhpgbeipb"
+  descriptions:
+    - "J'ai toujours trouvé compliqué de gérer les favoris dans Chrome : j'en ai des centaines et je n'ai jamais le temps de les trier et ils finissent tous dans le même dossier \"Devtools\" ou \"À regarder plus tard\". Il me fallait un moyen simple et efficace de les faire apparaître au moment où j'avais besoin d'eux."
+    - "Cette extension Chrome montre les favoris qui correspondent à vos mots-clé dans une recherche Google"
+    - "Tapez votre recherche dans la barre Google et les favoris correspondant seront affichés en haut des résultats."
+    - "Construit avec <strong>JS / HTML / CSS</strong>: <a href=\"https://github.com/bellef/bookmarks_finder\" class=\"badge badge-dark\"><i class=\"fab fa-github\"></i> sources</a>."
+  pictures:
+    - path: "projects/bm_finder_1.png"
+      alt: "Bookmarks finder slide 1"
+- title: "Dashboard des visas canadiens"
+  link: "http://gotocanada.herokuapp.com/stats?location=France"
+  descriptions:
+    - "Quand je voulais immigrer au Canada, je devais aller vérifier les quotas d'immigration plusieurs fois par jour sur <a href=\"http://www.cic.gc.ca/francais/travailler/eic/selection.asp\">ce site</a>. Au moins 5 clics sont nécessaires pour voir l'information dont j'ai besoin."
+    - "J'ai alors décidé de coder un scraper qui afficherait les informations pour chaque type de visa dans des graphiques simples et clairs."
+    - "Construit avec <strong>Charts.js / HTML / CSS</strong>: <a href=\"https://github.com/bellef/goto_canada\" class=\"badge badge-dark\"><i class=\"fab fa-github\"></i> sources</a>."
+  pictures:
+    - path: "projects/gotocanada_1.png"
+      alt: "Canada visa overview slide 1"
+    - path: "projects/gotocanada_2.png"
+      alt: "Canada visa overview slide 2"
+    - path: "projects/gotocanada_3.png"
+      alt: "Canada visa overview slide 3"
