@@ -1,8 +1,8 @@
 - title: "Ce site personnel"
   link: "https://bellef.github.io"
   descriptions:
-    - "Quand j'ai voulu créer un site portfolio, j'ai dû choisir un moyen de gérer facilement un site statique. C'est pourquoi j'ai choisi de le construire avec Middleman"
-    - "Middleman est un générateur de sites statiques qui utilise tous les outils modernes dont j'ai besoin: ERB, Saas, CoffeeScript. etc. Read more about Middleman <a href=\"https://github.com/middleman/middleman#why-middleman\">here</a>"
+    - "J'ai choisi de bâtir mon site vitrine avec Middleman, une manière simple et efficace de construire des sites statiques."
+    - "Middleman est un générateur de sites statiques qui utilise des outils modernes : ERB, Saas, CoffeeScript. etc. Lire plus sur <a href=\"https://github.com/middleman/middleman#why-middleman\">Middleman</a>"
     - "Construit avec <strong>Middleman</strong>: <a href=\"https://github.com/bellef/bellef.github.io-middleman\" class=\"badge badge-dark\"><i class=\"fab fa-github\"></i> sources</a>."
   pictures:
     - path: "projects/bellef_middleman_1.png"
@@ -12,8 +12,8 @@
 - title: "Bookmarks Finder"
   link: "https://chrome.google.com/webstore/detail/bookmarks-in-google-resul/oamlmgmgmdajeceifmmhhlkkhpgbeipb"
   descriptions:
-    - "J'ai toujours trouvé compliqué de gérer les favoris dans Chrome : j'en ai des centaines et je n'ai jamais le temps de les trier et ils finissent tous dans le même dossier \"Devtools\" ou \"À regarder plus tard\". Il me fallait un moyen simple et efficace de les faire apparaître au moment où j'avais besoin d'eux."
-    - "Cette extension Chrome montre les favoris qui correspondent à vos mots-clé dans une recherche Google"
+    - "Mes favoris dans Google Chrome s'entassent tous dans le même dossier \"Devtools\" ou \"À regarder plus tard\". Il me fallait un moyen simple et efficace de les faire apparaître au moment où j'avais besoin d'eux, c'est pour ça que j'ai créé Bookmarks Finder."
+    - "Cette extension Chrome montre les favoris qui correspondent à vos mots-clé dans une recherche Google."
     - "Tapez votre recherche dans la barre Google et les favoris correspondant seront affichés en haut des résultats."
     - "Construit avec <strong>JS / HTML / CSS</strong>: <a href=\"https://github.com/bellef/bookmarks_finder\" class=\"badge badge-dark\"><i class=\"fab fa-github\"></i> sources</a>."
   pictures:
@@ -22,7 +22,7 @@
 - title: "Dashboard des visas canadiens"
   link: "http://gotocanada.herokuapp.com/stats?location=France"
   descriptions:
-    - "Quand je voulais immigrer au Canada, je devais aller vérifier les quotas d'immigration plusieurs fois par jour sur <a href=\"http://www.cic.gc.ca/francais/travailler/eic/selection.asp\">ce site</a>. Au moins 5 clics sont nécessaires pour voir l'information dont j'ai besoin."
+    - "Quand on veut immigrer au Canada, il faut aller vérifier les quotas d'immigration plusieurs fois par jour sur <a href=\"http://www.cic.gc.ca/francais/travailler/eic/selection.asp\">ce site</a>. Au moins 5 clics sont nécessaires pour obtenir une information pertinente."
     - "J'ai alors décidé de coder un scraper qui afficherait les informations pour chaque type de visa dans des graphiques simples et clairs."
     - "Construit avec <strong>Charts.js / HTML / CSS</strong>: <a href=\"https://github.com/bellef/goto_canada\" class=\"badge badge-dark\"><i class=\"fab fa-github\"></i> sources</a>."
   pictures:
